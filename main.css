@@ -1,5 +1,6 @@
 body{
     background-color: #f7f4ed;
+    overflow-x: hidden;
 }
 
 
@@ -12,7 +13,9 @@ h1 {
 h2{
     font-family: 'homemade apple';
     text-align: center;
-    color: #0b1957
+    color: #0b1957;
+    transform: translate(0%, 200%);
+
 }
 
 ul{
@@ -26,21 +29,39 @@ ul{
 
 
 .p{
-    text-align: justify;
+    text-align: left;
     font-family: 'red hat text';
     color: #0b1957;
+    left: 100px;
+    transform: translate(115%, -250%);
 }
 
 
 img{
     border-radius: 20px;
-    margin: 35px;
-    
+    margin: 25px;
+    overflow-x: hidden;
+}
+
+.me{
+  transform: translate(13%, 0%);
 }
   
 .active { 
       background-color:rgb(205, 81, 101)
   }
+
+.linkedin{
+  transform: translate(44%, -410%);
+}
+
+.ig{
+  transform: translate(50%, -310%);
+}
+
+.gmail{
+  transform: translate(56%, -510%);
+}
 
 
 .splash{
@@ -99,7 +120,7 @@ img{
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1210px;
   position: relative;
   margin-top: 0;
 }
@@ -123,6 +144,7 @@ img{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  opacity: 0;
 }
 
 /* Position the "next button" to the right */
