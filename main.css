@@ -14,7 +14,7 @@ h2{
     font-family: 'homemade apple';
     text-align: center;
     color: #0b1957;
-    transform: translate(0%, 200%);
+    transform: translate(0%, 130%);
 
 }
 
@@ -37,14 +37,12 @@ ul{
 }
 
 
-img{
-    border-radius: 20px;
-    margin: 25px;
-    overflow-x: hidden;
-}
 
 .me{
-  transform: translate(13%, 0%);
+  transform: translate(10%, 0%);
+  border-radius: 20px;
+  margin:25px;
+
 }
   
 .active { 
@@ -52,15 +50,15 @@ img{
   }
 
 .linkedin{
-  transform: translate(44%, -410%);
+  transform: translate(46%, -810%);
 }
 
 .ig{
-  transform: translate(50%, -310%);
+  transform: translate(52%, -910%);
 }
 
 .gmail{
-  transform: translate(56%, -510%);
+  transform: translate(58%, -1010%);
 }
 
 
@@ -113,21 +111,27 @@ img{
 
 .mySlides {
     display: flex;
+    border-radius: 20px;
+
 }
 
 img{
     vertical-align: middle;
+    border-radius: 20px;
+    display: flex;
+    transform: translate(1.5%, 0%);
+
 }
 /* Slideshow container */
 .slideshow-container {
   max-width: 1210px;
   position: relative;
-  margin-top: 0;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  border-radius: 20px;
 }
 
 /* Next & previous buttons */
